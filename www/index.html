@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<!--
+  * Please see the included README.md file for license terms and conditions.
+  -->
+<head>
+    <title>Blank Standard HTML5 Web App Template</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <!-- see http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/quick-tip-dont-forget-the-viewport-meta-tag -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        /* following two viewport lines are equivalent to meta viewport statement above, needed for Windows */
+        /* see http://www.quirksmode.org/blog/archives/2014/05/html5_dev_conf.html and http://dev.w3.org/csswg/css-device-adapt/ */
+        @-ms-viewport { width: 100vw ; min-zoom: 100% ; zoom: 100% ; }  @viewport { width: 100vw ; min-zoom: 100% zoom: 100% ; }
+        @-ms-viewport { user-zoom: fixed ; min-zoom: 100% ; }           @viewport { user-zoom: fixed ; min-zoom: 100% ; }
+    </style>   
+    
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    
+    <!-- Uncomment the following scripts if you convert your "Standard HTML5" project into a "Cordova" project. -->
+    <!-- <script src="cordova.js"></script> -->          <!-- phantom library, needed for Cordova api calls, added during build -->
+    <!-- <script src="js/app.js"></script> -->           <!-- recommended location of your JavaScript code relative to other JS files -->
+    <!-- <script src="xdk/init-dev.js"></script> -->     <!-- normalizes device and document ready events, see README for details -->
+</head>
+
+<body>
+
+    <h1>Scoping into Genetics!</h1>
+    <p class=first><b>Interested in finding out about the fascinating world of genetics?</b></p>
+    <p class=second>You've come to the right place!</p>
+    
+    <br>
+    <br>
+    
+    <p class=second><b>Are you new to genetics? Try out our "Basic" section...</b></p>
+    
+    <div class="wrapper1">
+        <div class="box_a" id="box_a"><a href="basic.html" style="text-decoration: none" style = "color:black"><font color=white><b>THE BASICS</b></font></a></div>
+    </div>
+    
+    <br>
+    <br>
+    
+    <p class=second><b>Know a bit about genetics and want to explore further? Try out our "Advanced" section...</b></p>
+    
+    <div class="wrapper1">
+        <div class="box_a" id="box_a"><a href="advanced.html" style="text-decoration: none" style = "color:black"><font color=white><b>ADVANCED</b></font></a></div>
+    </div>
+    
+    <br>
+    <br>
+    <br>    
+    <br>
+    <br>
+   
+    <p class=third><b>Explore some fun stuff...</b></p>
+
+    <div class="wrapper2">
+        <div class="box_e" id="box_e"><a href="rwe.html" style="text-decoration: none" style = "color:white"><font color=white><b>EXAMPLES</b></font></a></div> 
+    </div>    
+    
+    <br>
+    <br>
+    
+    <footer>
+		<form action="contacts.html">
+            <input type="submit" value="CONTACT US">
+        </form>
+    </footer> 
+
+</body>
+</html>

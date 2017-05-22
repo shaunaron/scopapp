@@ -1,0 +1,126 @@
+body {
+background-color: cornflowerblue;
+background-image: url("helix.jpg");
+background-blend-mode:soft-light;
+background-size: cover;
+text-align: center;
+font-family: calibri;
+margin-bottom: 150px;
+}
+        
+h1 {
+font-family: "Helvetica";
+font-weight: bolder;
+color: navy;
+font-size: 350%;			
+text-align: center;	    
+}
+   
+h2 {
+font-family: "Arial";
+color: blue;
+font-size: 250%;			
+text-align: center;	    
+}
+       
+       
+p.first {
+font-family: calibri;
+font-size: 130%;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+        
+p.second {
+font-family: calibri;
+font-size: 115%;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+   
+p.third {
+font-family: calibri;
+font-size: 150%;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+        
+.wrapper0 {
+margin-left: 90px;
+margin-right: auto;
+float:left;
+height: 80%;
+}
+        
+.wrapper1 {
+display: grid;
+grid-column-gap: 10px;
+background-color: transparent;
+width: 40%;  
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+        
+.wrapper2 {
+display: grid;
+grid-column-gap: 10px;
+background-color: transparent;
+width: 45%;
+text-align: center;    
+margin-left: auto;
+margin-right: auto;
+float: center;
+}
+        
+.wrapper3 {
+display: grid;
+background-color: transparent;
+width: 45%;  
+margin-left: auto;
+margin-right: auto;
+float: center;
+}
+        
+.box_a,.box_b,.box_c,.box_d {
+background-color: steelblue;
+color: white;
+border-radius: 20px;
+padding: 15px;
+font-size: 100%;
+text-align:center;
+}
+        
+.box_e,.box_f {
+background-color: darkblue;
+color: whitesmoke;
+border-radius: 20px;
+padding: 15px;
+font-size: 100%;
+text-align: center
+}
+        
+footer {
+position:fixed;
+bottom:0;
+left: 0;
+width:100%;
+height:auto;
+background-color: seagreen;
+font-family: "calibri";
+text-align: center;
+}
+      
+form {
+display: inline;
+}
+      
+input[type=submit] {
+padding:10px 15px; 
+background:#ccc; 
+font-size: 100%;
+font-weight: bold;	
+}
