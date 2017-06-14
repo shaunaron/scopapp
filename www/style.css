@@ -1,8 +1,9 @@
 body {
-background-color: cornflowerblue;
-background-image: url("helix.jpg");
+background-color: cadetblue;
+background-image: url("backgroundproper3.png");
 background-blend-mode:soft-light;
 background-size: cover;
+background-attachment: inherit;
 text-align: center;
 font-family: calibri;
 margin-bottom: 150px;
@@ -12,7 +13,7 @@ h1 {
 font-family: "Helvetica";
 font-weight: bolder;
 color: navy;
-font-size: 350%;			
+font-size: 450%;			
 text-align: center;	    
 }
    
@@ -25,7 +26,7 @@ text-align: center;
        
        
 p.first {
-font-family: calibri;
+font-family: "Arial";
 font-size: 130%;
 text-align: center;
 margin-left: auto;
@@ -33,7 +34,7 @@ margin-right: auto;
 }
         
 p.second {
-font-family: calibri;
+font-family: "Arial";
 font-size: 115%;
 text-align: center;
 margin-left: auto;
@@ -41,7 +42,7 @@ margin-right: auto;
 }
    
 p.third {
-font-family: calibri;
+font-family: "Arial";
 font-size: 150%;
 text-align: center;
 margin-left: auto;
@@ -109,7 +110,7 @@ bottom:0;
 left: 0;
 width:100%;
 height:auto;
-background-color: seagreen;
+#background-color: seagreen;
 font-family: "calibri";
 text-align: center;
 }
@@ -120,7 +121,7 @@ display: inline;
       
 input[type=submit] {
 padding:10px 15px; 
-background:#ccc; 
+background:#cce; 
 font-size: 100%;
 font-weight: bold;	
 }
