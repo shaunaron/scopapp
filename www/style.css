@@ -58,7 +58,7 @@ height: 80%;
 .wrapper1 {
 display: grid;
 grid-column-gap: 10px;
-background-color: transparent;
+#background-color: transparent;
 width: 40%;  
 margin-left: auto;
 margin-right: auto;
@@ -68,7 +68,7 @@ text-align: center;
 .wrapper2 {
 display: grid;
 grid-column-gap: 10px;
-background-color: transparent;
+#background-color: transparent;
 width: 45%;
 text-align: center;    
 margin-left: auto;
@@ -78,14 +78,14 @@ float: center;
         
 .wrapper3 {
 display: grid;
-background-color: transparent;
+#background-color: transparent;
 width: 45%;  
 margin-left: auto;
 margin-right: auto;
 float: center;
 }
         
-.box_a,.box_b,.box_c,.box_d {
+.box_a,.box_b,.box_c,.box_d,.box_j,.box_k {
 background-color: steelblue;
 color: white;
 border-radius: 20px;

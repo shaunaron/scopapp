@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<!--
+  * Please see the included README.md file for license terms and conditions.
+  -->
+<head>
+    <title>Blank Standard HTML5 Web App Template</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <!-- see http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/quick-tip-dont-forget-the-viewport-meta-tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <style>
+        /* following two viewport lines are equivalent to meta viewport statement above, needed for Windows */
+        /* see http://www.quirksmode.org/blog/archives/2014/05/html5_dev_conf.html and http://dev.w3.org/csswg/css-device-adapt/ */
+        @-ms-viewport { width: 100vw ; min-zoom: 100% ; zoom: 100% ; }  @viewport { width: 100vw ; min-zoom: 100% zoom: 100% ; }
+        @-ms-viewport { user-zoom: zoom ; min-zoom: 100% ; }           @viewport { user-zoom: zoom ; min-zoom: 100% ; }
+    </style>   
+    
+    <link rel="stylesheet" type="text/css" href="style2.css" media="screen" />
+    
+    <!-- Uncomment the following scripts if you convert your "Standard HTML5" project into a "Cordova" project. -->
+    <!-- <script src="cordova.js"></script> -->          <!-- phantom library, needed for Cordova api calls, added during build -->
+    <!-- <script src="js/app.js"></script> -->           <!-- recommended location of your JavaScript code relative to other JS files -->
+    <!-- <script src="xdk/init-dev.js"></script> -->     <!-- normalizes device and document ready events, see README for details -->
+</head>
+
+<body>
+
+    <div class=container>
+        <img src="PLACEHOLDER">
+        <p>&#126;</p>
+        <img src="PLACEHOLDER">
+    </div>
+    
+    <footer>
+		<form action="index.html">
+            <input type="submit" value="HOME">
+        </form>
+        <form action="advanced.html">
+            <input type="submit" value="ADVANCED">
+        </form>
+        <form action="Karyotypes.html">
+            <input type="submit" value="BACK">
+        </form>
+         <form action="Single_Gene_Dis.html">
+            <input type="submit" value="NEXT">
+        </form>
+    </footer> 
+    
+</body>
+</html>
