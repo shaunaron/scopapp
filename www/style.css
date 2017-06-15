@@ -2,6 +2,14 @@ body {
 background-color: cadetblue;
 background-image: url("backgroundproper3.png");
 background-blend-mode:soft-light;
+=======
+#background-color: cornflowerblue;
+background-image: url("backgroundproper.png");
+background-blend-mode: soft-light;
+background-position: center;
+background-size: auto;    
+background-attachment: fixed;
+>>>>>>> 4628be104e19c692b1ec30ca4871e62f34258d5f
 background-size: cover;
 background-attachment: inherit;
 text-align: center;
