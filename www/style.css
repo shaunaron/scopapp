@@ -17,7 +17,7 @@ h1 {
 font-family: "Helvetica";
 font-weight: bolder;
 color: navy;
-font-size: 450%;			
+font-size: 350%;			
 text-align: center;	    
 }
    
@@ -31,7 +31,7 @@ text-align: center;
        
 p.first {
 font-family: "Arial";
-font-size: 130%;
+font-size: 150%;
 text-align: center;
 margin-left: auto;
 margin-right: auto;
@@ -39,7 +39,7 @@ margin-right: auto;
         
 p.second {
 font-family: "Arial";
-font-size: 115%;
+font-size: 150%;
 text-align: center;
 margin-left: auto;
 margin-right: auto;
@@ -52,7 +52,16 @@ text-align: center;
 margin-left: auto;
 margin-right: auto;
 }
-        
+
+p.fourth {
+font-family: "Arial";
+font-size: 250%;
+color: blue;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
 .wrapper0 {
 margin-left: 90px;
 margin-right: auto;
@@ -63,7 +72,7 @@ height: 80%;
 .wrapper1 {
 display: grid;
 grid-column-gap: 10px;
-#background-color: transparent;
+background-color: transparent;
 width: 40%;  
 margin-left: auto;
 margin-right: auto;
@@ -114,7 +123,6 @@ bottom:0;
 left: 0;
 width:100%;
 height:auto;
-#background-color: seagreen;
 font-family: "calibri";
 text-align: center;
 }
