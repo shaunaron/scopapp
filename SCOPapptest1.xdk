@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/template-blank-cordova-ad-project/sample.zip",
       "projectGuid": "815e9aba-1275-4f7f-b475-3ed88158bab9",
-      "lastModifiedDate": 1494858708190,
+      "lastModifiedDate": 1505307840579,
       "creationDate": 1492763580635
     },
     "XDK-app-designer": "true",
@@ -97,8 +97,8 @@
         "certificateId_": "RBmO26pUcEajV_sDgVSI9A2",
         "cordovaCLIVersion_": "6.2.0",
         "crosswalkVersion_": "19",
-        "appName_": "SCOPapptest1",
-        "appID_": "xdk.intel.template",
+        "appName_": "Scoping Genetics",
+        "appID_": "scoping.genetics",
         "appAccess_": {
           "mode": "whitelist",
           "network": [
@@ -115,14 +115,29 @@
           ],
           "navigation": []
         },
-        "icons_": [],
-        "splashes_": [],
+        "icons_": [
+          {
+            "density": "xhdpi",
+            "relPath": "package-assets/DNA_smol.PNG",
+            "width": 96,
+            "height": 96
+          }
+        ],
+        "splashes_": [
+          {
+            "relPath": "package-assets/DNA_Scop.PNG",
+            "density": "ldpi",
+            "height": 426,
+            "width": 320,
+            "orientation": "portrait"
+          }
+        ],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "appVersion_": "0.0.1",
+        "appVersion_": "0.0.2",
         "appVersionCode_": "1",
-        "appDescription_": "Intel XDK template",
-        "appAuthor_": "Intel XDK",
+        "appDescription_": "A learning tool to teach you the A - B of genetics",
+        "appAuthor_": "SCOPE Wits",
         "signed_": true
       },
       "iOS": {
