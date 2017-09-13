@@ -1,8 +1,13 @@
 body {
-background-color: cornflowerblue;
-background-image: url("helix.jpg");
+background-color: cadetblue;
+background-image: url("backgroundproper3.png");
 background-blend-mode:soft-light;
+background-blend-mode: soft-light;
+background-position: center;
+background-size: auto;    
+background-attachment: fixed;
 background-size: cover;
+background-attachment: inherit;
 text-align: center;
 font-family: calibri;
 margin-bottom: 150px;
@@ -25,29 +30,38 @@ text-align: center;
        
        
 p.first {
-font-family: calibri;
-font-size: 130%;
-text-align: center;
-margin-left: auto;
-margin-right: auto;
-}
-        
-p.second {
-font-family: calibri;
-font-size: 115%;
-text-align: center;
-margin-left: auto;
-margin-right: auto;
-}
-   
-p.third {
-font-family: calibri;
+font-family: "Arial";
 font-size: 150%;
 text-align: center;
 margin-left: auto;
 margin-right: auto;
 }
         
+p.second {
+font-family: "Arial";
+font-size: 150%;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+   
+p.third {
+font-family: "Arial";
+font-size: 150%;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+p.fourth {
+font-family: "Arial";
+font-size: 300%;
+color: blue;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
 .wrapper0 {
 margin-left: 90px;
 margin-right: auto;
@@ -68,7 +82,7 @@ text-align: center;
 .wrapper2 {
 display: grid;
 grid-column-gap: 10px;
-background-color: transparent;
+#background-color: transparent;
 width: 45%;
 text-align: center;    
 margin-left: auto;
@@ -78,14 +92,14 @@ float: center;
         
 .wrapper3 {
 display: grid;
-background-color: transparent;
+#background-color: transparent;
 width: 45%;  
 margin-left: auto;
 margin-right: auto;
 float: center;
 }
         
-.box_a,.box_b,.box_c,.box_d {
+.box_a,.box_b,.box_c,.box_d,.box_j,.box_k {
 background-color: steelblue;
 color: white;
 border-radius: 20px;
@@ -109,7 +123,6 @@ bottom:0;
 left: 0;
 width:100%;
 height:auto;
-background-color: seagreen;
 font-family: "calibri";
 text-align: center;
 }
@@ -120,7 +133,7 @@ display: inline;
       
 input[type=submit] {
 padding:10px 15px; 
-background:#ccc; 
+background:#cce; 
 font-size: 100%;
 font-weight: bold;	
 }
